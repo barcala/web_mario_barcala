@@ -1,0 +1,268 @@
+/* layout */
+
+#cabeceira {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #AA1C47;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: serif;
+}
+
+#menu {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    text-align:center;
+    border-radius: 5px;
+    font-size: 14pt;
+    font-family: serif;
+}
+
+#contido {
+    position:relative;
+    left: 5%;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom:10px;
+    font-size: 12pt;
+    font-family: serif;
+}
+
+#lastmodified { 
+  margin-top: 50px;
+  position: relative;
+  text-align: right;
+  width: 840px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 10pt;
+}
+
+#w3clanguages { 
+  margin-top: 0px;
+  position: relative;
+  text-align: right;
+  width:840px;
+  margin-left:auto;
+  margin-right:auto
+}
+
+#lingua {
+    display:inline;
+    color: white;
+    background-color: #E0E0E0;
+    font-size: 12pt;
+}
+
+#w3c {
+    display:inline;
+}
+
+#copyright {
+    position: relative;
+    font-size: 12pt;
+    color: #909090;
+    width:840px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+/* main menu */
+
+.menuitem {
+    background-color: #E0E0E0;
+    display: inline-block;
+    color: #AA1C47;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+table.menu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: left;
+}
+
+a.menu {
+    text-decoration: none;
+    color: #AA1C47;
+    font-weight:bold;
+}
+
+a.menu:hover {
+    color: #AA1C47;
+/*    color: green;*/
+}
+
+a.menuselected {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+/* general definitions */
+
+body {
+    font-size:14pt;
+}
+
+p {
+    text-align:justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.resaltado {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p.notaaope {
+    text-align:justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type:circle;
+}
+
+
+h1 {
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* contido links */
+	
+a {
+/*    color: #909090;*/
+    color: #AA1C47;
+}
+
+a:hover {
+    color: #AA1C47;
+/*
+    background-color: #909090;
+    color: white;
+*/
+}
+
+a.imaxe:hover {
+    background-color: white;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:justify;
+}
+
+
+td {
+    vertical-align: top;
+    text-align: left;
+}
+
+td.contidoright {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 10px;
+}
+
+th {
+    vertical-align: top;
+    text-align: left;
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+
+th.contidoright {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 10px;
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+
+div.presentation_image {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+div.presentation_item_left {
+    font-size: 14pt;
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+    background-color: #F4F4F4;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #AA1C47;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    left: -150px;
+    margin-top: 10px
+}
+
+div.presentation_item_right {
+    font-size: 14pt;
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+    background-color: #F4F4F4;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #AA1C47;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    left: 150px;
+    margin-top: 10px
+}
+
+div.publication_item {
+    font-size: 14pt;
+    width: 800px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+    background-color: #F4F4F4;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #AA1C47;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    margin-top: 10px
+}
